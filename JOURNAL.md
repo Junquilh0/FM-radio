@@ -12,12 +12,16 @@
 
 ## Contents
 
-1. [2026-10-11 – Work session](#2026-10-11-work-session)
+1. [2026-10-11 – In this session i spent a lot of time learning how a radio works and what type of radio i was trying to build. Luckly after sometime i started to getting it and started planing the radio. I already di](#2026-10-11-in-this-session-i-spent-a-lot-of-time-learning-ho)
 
 ## Design
 
-### 2026-10-11 – Work session
+### 2026-10-11 – In this session i spent a lot of time learning how a radio works and what type of radio i was trying to build. Luckly after sometime i started to getting it and started planing the radio. I already di
 
 **2.8h**
+
+In this session i spent a lot of time learning how a radio works and what type of radio i was trying to build. Luckly after sometime i started to getting it and started planing the radio. I already did all of the oscilator (i think) and next ill do the amplification part.
+
+![image_2026-10-11_145934546](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/LU2CiIsL0lXWB4VC02VzTwDa42EmVC3I/2eb24b9d785339d207c1682de6016e64420f58c6d86f49c2af9ee16678446bb7.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/625731c7-dab8-4e2f-af8b-081f3ddcd732/video.mp4)
