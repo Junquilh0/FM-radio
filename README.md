@@ -1,24 +1,23 @@
 # FM-radio
-This project is essentially a small FM radio receiver that I could build with some cheap components and some things I already had at home. I wanted to do this project because I’ve always loved electronics, and the way radios made it possible to hear someone that is miles away always felt like magic to me. I am building this with no microcontroller or chip that does almost everything for me because I wanted to really learn how everything works. It turns out this project was a bit more complicated than I expected, and I had to spend a lot of time learning about RLC circuits and wave filtering. Although it’s not perfect, I think I designed it well enough that we can at least hear a distorted voice when it is working. It’s not a perfect radio and the quality will probably be very poor, but I think I completed my goal and it’s a good start.
-
+This project is essentially a small FM radio receiver that I could build with some cheap components and some things I already had at home. I wanted to do this project because I've always loved electronics, and the way radios made it possible to hear someone that is miles away always felt like magic to me. I am building this with no microcontroller or chip that does almost everything for me because I wanted to really learn how everything works. It turns out this project was a bit more complicated than I expected, and I had to spend a lot of time learning about RLC circuits and wave filtering. Although it's not perfect, I think I designed it well enough that we can at least hear a distorted voice when it is working. It's not a perfect radio and the quality will probably be very poor, but I think I completed my goal and it's a good start.
+ 
 ### Inspiration:
 ![Inspiration](images/maxresdefault.jpg)
-
+ 
 ## How it works
  
-Making this i saw a lot of diferent designs for similar radios. Mine is made by essential two parts:
+While making this I saw a lot of different designs for similar radios. Mine is made of essentially two parts:
 ### The receiver
-- The coil (L) and the small variable capacitor (C_osc) filter which frequency the radio "listens" to. The frequency the radio points to is around 100MHz and changing the capacitor or slightly adjusting the coil (its handmade) moves it across the FM band;
-- The antenna is a 75 cm wire because thats one fourth of the wavelength of a normal radio wave. It connects through a tiny 2 pF capacitor (C3) so it does not mess up the tuning;
-- The transistor (Q1) makes the circuit almost oscillate wich makes it very sensitive. This type of receiver is called *super-regenerative* because it uses its positive feedback to amplify the signal;
-- Th second variable capacitor (C_regen) and a potentiometer (poten2) control how strongly the transistor afects the circuit;
+- The coil (L) and the small variable capacitor (C_osc) choose which frequency the radio "listens" to. The frequency the radio points to is around 100 MHz, and changing the capacitor or slightly adjusting the coil (it's handmade) moves it across the FM band;
+- The antenna is a 75 cm wire because that's one fourth of the wavelength of a normal radio wave. It connects through a tiny 2 pF capacitor (C3) so it does not mess up the tuning;
+- The transistor (Q1) makes the circuit almost oscillate, which makes it very sensitive. This type of receiver is called *super-regenerative* because it uses its positive feedback to amplify the signal;
+- The second variable capacitor (C_regen) and a potentiometer (poten2) control how strongly the transistor affects the circuit;
 - A small choke (inductor XRF1) and some capacitors let only the audio move on to the next stage;
 - R1, C1 and C2 clean the power for the receiver;
 ### The amplifier (LM386)
-- The sound goes through a filter (R_audio and C5) that removes the noise, then through the volume pot (poten1).
+- The sound goes through a filter (R_audio and C5) that removes the noise, then through the volume pot (poten1);
 - The LM386 amplifies the audio (about 200 times) and sends it to the speaker;
-- The other capacitors on the chip (C7, C8, C13, C_bypass1, C12) keep it stable and smooth the power;
-
+- The other capacitors around the chip (C7, C8, C13, C_bypass1, C12) keep it stable and smooth the power;
 ## Pictures
  
 Schematic:
@@ -35,7 +34,7 @@ PCB layout:
  
 ## Wiring
  
-Some parts are connected with wires because im still not sure about the dimentions:
+Some parts are connected with wires because I'm still not sure about their dimensions:
  
 | Part | Pad | Goes to |
 |---|---|---|
@@ -54,10 +53,10 @@ Some parts are connected with wires because im still not sure about the dimentio
 | Speaker | 2 | ground |
 | Antenna | 1 | 75 cm wire |
  
-The electrolytic capacitors have a polarity so pay atention. All the other components are soldered on the pcb as in the sketch.
+The electrolytic capacitors have a polarity so pay attention. All the other components are soldered on the pcb as in the sketch.
  
 ## Bill of materials
-The list below shows all the materials neded. The ones that bring more than one component are there because it was cheaper then buying one in another website (there are not much eletronics stores were i live, so sorry for that).
+The list below shows all the materials needed. The ones that bring more than one component are there because it was cheaper than buying one in another website (there are not many electronics stores where I live, so sorry for that).
  
 | Qty | Part | Value | Where on the board | Link |
 |---|---|---|---|---|
@@ -82,13 +81,13 @@ The list below shows all the materials neded. The ones that bring more than one 
 | 1 | RF choke | 10 µH | XRF1 | [link](https://www.ptrobotics.com/indutores/993-indutor-radial-10uh-15a-007r.html) |
 | 1 | Potentiometer | 50 kΩ | poten2 | [link](https://www.ptrobotics.com/potenciometros-rotativos/7981-potenciometro-linear-50k-125mw-montagem-com-fio.html) |
 | 1 | Potentiometer | 10 kΩ | poten1 | [link](https://www.ptrobotics.com/potenciometros-rotativos/5267-potentiometer-linear-10k-125mw.html) |
-| 1 | Switch | SPST | SW1 | [link](https://www.ptrobotics.com/interruptores-slide/1770-spdt-slide-switch.html) |
+| 1 | Switch | SPDT(one pin not used) | SW1 | [link](https://www.ptrobotics.com/interruptores-slide/1770-spdt-slide-switch.html) |
 | 1 | 9 V battery clip | 9 V | BT1 | [link](https://pt.aliexpress.com/item/1005010458753879.html) |
-| 1 | Speaker | small | LS1 | No link (i have at home) |
-| 1 | 9 V battery | 9 V | BT1 | No link (i have at home) |
-| 1 | Wire | 75 cm | antenna | No link (i have at home) |
-| 1 | Enamelled copper wire | about 1 mm | coil (5 turns, wound by hand) | No link (i have at home) |
-
+| 1 | Speaker | small | LS1 | No link (I have it at home) |
+| 1 | 9 V battery | 9 V | BT1 | No link (I have it at home) |
+| 1 | Wire | 75 cm | antenna | No link (I have it at home) |
+| 1 | Enamelled copper wire | about 1 mm | coil (5 turns, wound by hand) | No link (I have it at home) |
+ 
 ## Files
  
 - `Radio_1_v2.kicad_pcb`: the PCB
