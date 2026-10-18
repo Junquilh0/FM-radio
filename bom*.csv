@@ -23,6 +23,6 @@ Resistor 1 kΩ (R1),1,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw
 Resistor 2.2 kΩ (R2),1,PTRobotics,https://www.ptrobotics.com/resistencias-1-600mw/9094-resistencia-2k2-1-600mw.html
 Resistor 10 Ω (R3),1,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw/22-resistencia-10r-5-250mw.html
 Resistor 10 kΩ (R_audio1),1,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw/62-resistencia-10k-5-250mw.html
-Slide switch (SW1),1,PTRobotics,https://www.ptrobotics.com/interruptores-slide/1770-spdt-slide-switch.html
+Slide switch (SW1),1,Already have,
 "LM386 audio amplifier, DIP-8 (U1)",1,PTRobotics,https://www.ptrobotics.com/audio/10381-lm386n-3-amplificador-audio-de-baixa-tensao-700mw.html
 RF choke inductor 10 µH (XRF1),1,PTRobotics,https://www.ptrobotics.com/indutores/993-indutor-radial-10uh-15a-007r.html
