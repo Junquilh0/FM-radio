@@ -1,8 +1,9 @@
 # FM-radio
 This project is essentially a small FM radio receiver that I could build with some cheap components and some things I already had at home. I wanted to do this project because I've always loved electronics, and the way radios made it possible to hear someone that is miles away always felt like magic to me. I am building this with no microcontroller or chip that does almost everything for me because I wanted to really learn how everything works. It turns out this project was a bit more complicated than I expected, and I had to spend a lot of time learning about RLC circuits and wave filtering. Although it's not perfect, I think I designed it well enough that we can at least hear a distorted voice when it is working. It's not a perfect radio and the quality will probably be very poor, but I think I completed my goal and it's a good start.
  
-### Inspiration:
+### Example of inspiration:
 ![Inspiration](images/maxresdefault.jpg)
+Image from youtube video (https://www.youtube.com/watch?v=K_KGpeN28-U)
  
 ## How it works
  
