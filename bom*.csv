@@ -1,28 +1,28 @@
-Part,Qty,Unit (USD),Total (USD),Vendor,Link,Notes
-Antenna wire 75 cm (AE1),1,0.00,=B2*C2,Already have,,I have it at home
-9 V battery clip (BT1),1,,=B3*C3,AliExpress,https://pt.aliexpress.com/item/1005010458753879.html,
-9 V battery (BT1),1,0.00,=B4*C4,Already have,,I have it at home
-"Electrolytic capacitor 10 µF (C1, C7, C_bypass1)",3,,=B5*C5,PTRobotics,https://www.ptrobotics.com/condensador-electroliticos/518-condensador-electrolitico-10uf-25v.html,
-Ceramic capacitor 100 nF (C2),1,,=B6*C6,AliExpress,https://pt.aliexpress.com/item/1005011819339428.html,
-Ceramic capacitor 2 pF (C3),1,,=B7*C7,AliExpress,https://pt.aliexpress.com/item/1005003654568680.html,
-Ceramic capacitor 1.2 nF (C4),1,,=B8*C8,PTRobotics,https://www.ptrobotics.com/condensador-ceramicos/12739-condensador-ceramico-12nf-50v.html,check value on product page
-Ceramic capacitor 10 nF (C5),1,,=B9*C9,PTRobotics,https://www.ptrobotics.com/condensador-ceramicos/509-condensador-ceramico-10nf-50v.html,
-Ceramic capacitor 4.7 nF (C6),1,,=B10*C10,PTRobotics,https://www.ptrobotics.com/condensador-ceramicos/2179-condensador-ceramico-47nf-50v.html,check value on product page
-Electrolytic capacitor 220 µF (C8),1,,=B11*C11,PTRobotics,https://www.ptrobotics.com/condensador-electroliticos/533-condensador-electrolitico-220uf-25v.html,
-Electrolytic capacitor 1 µF (C9),1,,=B12*C12,PTRobotics,https://www.ptrobotics.com/condensador-electroliticos/3398-condensador-electrolitico-1uf-16v.html,
-Ceramic capacitor 47 nF (C12),1,,=B13*C13,PTRobotics,https://www.ptrobotics.com/condensador-ceramicos/3508-condensador-ceramico-47nf-50v.html,
-Electrolytic capacitor 100 µF (C13),1,,=B14*C14,PTRobotics,https://www.ptrobotics.com/condensador-electroliticos/529-condensador-electrolitico-100uf-25v.html,
-Trimmer capacitor 5-20 pF (C_oscilator1),1,,=B15*C15,AliExpress,https://pt.aliexpress.com/item/1005001616140065.html,
-Trimmer capacitor 2-10 pF (C_regen1),1,,=B16*C16,PTRobotics,https://www.ptrobotics.com/trimmers/6906-2-10pf-variable-trimmer-capacitor.html,
-Speaker (LS1),1,0.00,=B17*C17,Already have,,I have it at home
-"Enamelled copper wire, about 1 mm (coil, 5 turns) (L_oscilator1)",1,0.00,=B18*C18,Already have,,I have it at home
-Potentiometer 10 kΩ (poten1),1,,=B19*C19,PTRobotics,https://www.ptrobotics.com/potenciometros-rotativos/5267-potentiometer-linear-10k-125mw.html,
-Potentiometer 50 kΩ (poten2),1,,=B20*C20,PTRobotics,https://www.ptrobotics.com/potenciometros-rotativos/7981-potenciometro-linear-50k-125mw-montagem-com-fio.html,
-BF494 NPN transistor (Q1),1,,=B21*C21,AliExpress,https://pt.aliexpress.com/item/1005008378765100.html,
-Resistor 1 kΩ (R1),1,,=B22*C22,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw/45-resistencia-1k-5-250mw.html,
-Resistor 2.2 kΩ (R2),1,,=B23*C23,PTRobotics,https://www.ptrobotics.com/resistencias-1-600mw/9094-resistencia-2k2-1-600mw.html,
-Resistor 10 Ω (R3),1,,=B24*C24,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw/22-resistencia-10r-5-250mw.html,
-Resistor 10 kΩ (R_audio1),1,,=B25*C25,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw/62-resistencia-10k-5-250mw.html,
-Slide switch (SW1),1,,=B26*C26,PTRobotics,https://www.ptrobotics.com/interruptores-slide/1770-spdt-slide-switch.html,"SPDT used as on/off, one pin not used"
-"LM386 audio amplifier, DIP-8 (U1)",1,,=B27*C27,PTRobotics,https://www.ptrobotics.com/audio/10381-lm386n-3-amplificador-audio-de-baixa-tensao-700mw.html,
-RF choke inductor 10 µH (XRF1),1,,=B28*C28,PTRobotics,https://www.ptrobotics.com/indutores/993-indutor-radial-10uh-15a-007r.html,
+Part,Qty,Vendor,Link
+Antenna wire 75 cm (AE1),1,Already have,
+9 V battery clip (BT1),1,AliExpress,https://pt.aliexpress.com/item/1005010458753879.html
+9 V battery (BT1),1,Already have,
+"Electrolytic capacitor 10 µF (C1, C7, C_bypass1)",3,PTRobotics,https://www.ptrobotics.com/condensador-electroliticos/518-condensador-electrolitico-10uf-25v.html
+Ceramic capacitor 100 nF (C2),1,AliExpress,https://pt.aliexpress.com/item/1005011819339428.html
+Ceramic capacitor 2 pF (C3),1,AliExpress,https://pt.aliexpress.com/item/1005003654568680.html
+Ceramic capacitor 1.2 nF (C4),1,PTRobotics,https://www.ptrobotics.com/condensador-ceramicos/12739-condensador-ceramico-12nf-50v.html
+Ceramic capacitor 10 nF (C5),1,PTRobotics,https://www.ptrobotics.com/condensador-ceramicos/509-condensador-ceramico-10nf-50v.html
+Ceramic capacitor 4.7 nF (C6),1,PTRobotics,https://www.ptrobotics.com/condensador-ceramicos/2179-condensador-ceramico-47nf-50v.html
+Electrolytic capacitor 220 µF (C8),1,PTRobotics,https://www.ptrobotics.com/condensador-electroliticos/533-condensador-electrolitico-220uf-25v.html
+Electrolytic capacitor 1 µF (C9),1,PTRobotics,https://www.ptrobotics.com/condensador-electroliticos/3398-condensador-electrolitico-1uf-16v.html
+Ceramic capacitor 47 nF (C12),1,PTRobotics,https://www.ptrobotics.com/condensador-ceramicos/3508-condensador-ceramico-47nf-50v.html
+Electrolytic capacitor 100 µF (C13),1,PTRobotics,https://www.ptrobotics.com/condensador-electroliticos/529-condensador-electrolitico-100uf-25v.html
+Trimmer capacitor 5-20 pF (C_oscilator1),1,AliExpress,https://pt.aliexpress.com/item/1005001616140065.html
+Trimmer capacitor 2-10 pF (C_regen1),1,PTRobotics,https://www.ptrobotics.com/trimmers/6906-2-10pf-variable-trimmer-capacitor.html
+Speaker (LS1),1,Already have,
+"Enamelled copper wire, about 1 mm (coil, 5 turns) (L_oscilator1)",1,Already have,
+Potentiometer 10 kΩ (poten1),1,PTRobotics,https://www.ptrobotics.com/potenciometros-rotativos/5267-potentiometer-linear-10k-125mw.html
+Potentiometer 50 kΩ (poten2),1,PTRobotics,https://www.ptrobotics.com/potenciometros-rotativos/7981-potenciometro-linear-50k-125mw-montagem-com-fio.html
+BF494 NPN transistor (Q1),1,AliExpress,https://pt.aliexpress.com/item/1005008378765100.html
+Resistor 1 kΩ (R1),1,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw/45-resistencia-1k-5-250mw.html
+Resistor 2.2 kΩ (R2),1,PTRobotics,https://www.ptrobotics.com/resistencias-1-600mw/9094-resistencia-2k2-1-600mw.html
+Resistor 10 Ω (R3),1,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw/22-resistencia-10r-5-250mw.html
+Resistor 10 kΩ (R_audio1),1,PTRobotics,https://www.ptrobotics.com/resistencias-5-250mw/62-resistencia-10k-5-250mw.html
+Slide switch (SW1),1,PTRobotics,https://www.ptrobotics.com/interruptores-slide/1770-spdt-slide-switch.html
+"LM386 audio amplifier, DIP-8 (U1)",1,PTRobotics,https://www.ptrobotics.com/audio/10381-lm386n-3-amplificador-audio-de-baixa-tensao-700mw.html
+RF choke inductor 10 µH (XRF1),1,PTRobotics,https://www.ptrobotics.com/indutores/993-indutor-radial-10uh-15a-007r.html
