@@ -89,7 +89,7 @@ The list below shows all the materials needed. The ones that bring more than one
 | 1 | Wire | 75 cm | antenna | No link (I have it at home) |
 | 1 | Enamelled copper wire | about 1 mm | coil (5 turns, wound by hand) | No link (I have it at home) |
  
-## Files
+## Important files
  
 - `Radio_1_v2.kicad_pcb`: the PCB
 - `Radio_1.kicad_sch`: the schematic
