@@ -82,8 +82,8 @@ The list below shows all the materials needed. The ones that bring more than one
 | 1 | RF choke | 10 µH | XRF1 | [link](https://www.ptrobotics.com/indutores/993-indutor-radial-10uh-15a-007r.html) |
 | 1 | Potentiometer | 50 kΩ | poten2 | [link](https://www.ptrobotics.com/potenciometros-rotativos/7981-potenciometro-linear-50k-125mw-montagem-com-fio.html) |
 | 1 | Potentiometer | 10 kΩ | poten1 | [link](https://www.ptrobotics.com/potenciometros-rotativos/5267-potentiometer-linear-10k-125mw.html) |
-| 1 | Switch | SPDT(one pin not used) | SW1 | [link](https://www.ptrobotics.com/interruptores-slide/1770-spdt-slide-switch.html) |
 | 1 | 9 V battery clip | 9 V | BT1 | [link](https://pt.aliexpress.com/item/1005010458753879.html) |
+| 1 | Switch | SPDT(one pin not used) | SW1 | No link (I have it at home) |
 | 1 | Speaker | small | LS1 | No link (I have it at home) |
 | 1 | 9 V battery | 9 V | BT1 | No link (I have it at home) |
 | 1 | Wire | 75 cm | antenna | No link (I have it at home) |
