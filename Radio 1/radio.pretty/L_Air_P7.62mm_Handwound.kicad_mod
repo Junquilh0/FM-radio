@@ -1,0 +1,92 @@
+(footprint "L_Air_P7.62mm_Handwound"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bobina de ar enrolada a mao, 2 terminais a 7.62 mm (as pernas dobram-se a gosto)")
+	(tags "inductor air coil handwound tht")
+	(property "Reference" "REF**"
+		(at 3.81 -4.2 0)
+		(layer "F.SilkS")
+		(uuid "4369f9fe-7962-4084-9b5c-72e15560eb8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Air_P7.62mm_Handwound"
+		(at 3.81 4.2 0)
+		(layer "F.Fab")
+		(uuid "40115c22-ce5b-44da-9129-98b94bb62c6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26338334-6912-4aea-ac8d-a7de05d03b40")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 2.2 2.2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "73b67172-12e7-4bf0-9a89-e30a6acdd9b2")
+	)
+	(fp_rect
+		(start -1.8 -3.2)
+		(end 9.42 3.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bca36b58-1513-4a47-85fb-1b69ab2b0c8a")
+	)
+	(fp_rect
+		(start -1.8 -3.2)
+		(end 9.42 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "62e98a08-defe-4674-ac15-1d9667fb5a29")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 0 0)
+		(layer "F.Fab")
+		(uuid "a5c62e2b-81ae-4367-926e-1bc61f1cf41b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.05 -3.45)
+		(end 9.67 3.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "70692a83-504b-4bb7-8729-359ceea24781")
+	)
+	(embedded_fonts no)
+)

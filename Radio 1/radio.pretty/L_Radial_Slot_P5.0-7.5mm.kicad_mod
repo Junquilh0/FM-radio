@@ -1,0 +1,92 @@
+(footprint "L_Radial_Slot_P5.0-7.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Indutor radial de nucleo em tambor com ranhura no pino 2: aceita terminais a 5.0 ate 7.5 mm")
+	(tags "inductor radial choke slot tht")
+	(property "Reference" "REF**"
+		(at 3.1 -6.3 0)
+		(layer "F.SilkS")
+		(uuid "8adf8382-12f3-4797-854a-631b3873d876")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Radial_Slot_P5.0-7.5mm"
+		(at 3.1 6.3 0)
+		(layer "F.Fab")
+		(uuid "99b5b847-939d-4160-8665-2b777a9c332c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65ab0efb-b8d2-407d-8333-f200af961c57")
+	)
+	(pad "2" thru_hole oval
+		(at 6.25 0)
+		(size 5 2.4)
+		(drill oval 3.9 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a42fd40-85b5-41ff-b443-0f6086b26440")
+	)
+	(fp_rect
+		(start -2 -5.4)
+		(end 10.5 5.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8443d5ac-3e72-47ac-9993-67a752ab07a4")
+	)
+	(fp_rect
+		(start -2 -5.4)
+		(end 10.5 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1bb53139-c411-4142-9f09-bf3cb4c2136b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.1 0 0)
+		(layer "F.Fab")
+		(uuid "11c9bac0-1457-4f28-aaa8-bb1aaaa10c0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -2.25 -5.65)
+		(end 10.75 5.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "1dba26e8-3af5-4272-b18a-538f659135c4")
+	)
+	(embedded_fonts no)
+)

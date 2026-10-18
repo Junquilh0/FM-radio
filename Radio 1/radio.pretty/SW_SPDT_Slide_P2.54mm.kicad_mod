@@ -1,0 +1,100 @@
+(footprint "SW_SPDT_Slide_P2.54mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Interruptor deslizante SPDT, 3 pinos em linha a 2.54 mm, pino 2 (meio) = comum; corpo desenhado com folga")
+	(tags "switch slide spdt tht")
+	(property "Reference" "REF**"
+		(at 2.54 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "8731594a-d6a1-4b08-859c-dfc4711445fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT_Slide_P2.54mm"
+		(at 2.54 3.4 0)
+		(layer "F.Fab")
+		(uuid "a8582640-405c-4a1c-9471-d916b788e913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64f3e419-59d5-4a3c-8ee7-da4e07e099ff")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6fed86c0-0f73-4549-8b76-2f2021a22bee")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a377ba0-2fba-43c7-8ed5-64ee867b2bdf")
+	)
+	(fp_rect
+		(start -2.8 -2.5)
+		(end 7.88 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "73e6948a-fdbf-4a08-953f-fbb066e8399a")
+	)
+	(fp_rect
+		(start -2.8 -2.5)
+		(end 7.88 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "72f14fdc-0119-46de-a543-deba01f848f5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "30b3869b-7e4b-424c-9f43-f5bf2bbb966b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -3.05 -2.75)
+		(end 8.13 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8687deae-b2e1-4cd0-8e1a-8b17c7625fb7")
+	)
+	(embedded_fonts no)
+)
